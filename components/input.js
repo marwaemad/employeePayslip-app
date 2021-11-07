@@ -42,8 +42,8 @@ const Input = ({ id, name, type, required, handleOnChange, value, label, placeHo
         <Thing>
             <Label htmlFor={name}>{label}</Label>
             <Thing className="container">
-                <InputField id={id} name={name} placeholder={placeHolder} type={type} autoComplete={id} value={value} onChange={handleOnChange} required={required} />
-                {(!value && required )&& <Span>this field cant be empty</Span>}
+                <InputField id={id} name={name}  placeholder={placeHolder} type={type} autoComplete={id} value={value} onChange={handleOnChange} required={required} />
+                {(!value  && required) && <Span>this field cant be empty</Span>}
             </Thing>
         </Thing>
     );

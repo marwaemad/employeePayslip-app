@@ -1,9 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
+import PaySlip from './payslip';
 export default function Home() {
   return (
-   <div><h1>employee payslip</h1></div>
-  )
+    <PaySlip />)
 }
