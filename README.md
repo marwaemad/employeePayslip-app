@@ -1,6 +1,8 @@
 
 clone the project from https://github.com/marwaemad/employeePayslip-app.git
-install npm 
+
+install npm :
+
 npm install 
 
 ## Getting Started
